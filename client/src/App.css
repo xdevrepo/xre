@@ -1,0 +1,99 @@
+html,
+body {
+ height: 100%;
+}
+.App {
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+}
+.App .container {
+ flex: 1 0 auto;
+}
+.pic {
+  max-width: 100px;
+  margin-top:-13px;
+}
+img {
+  width: 100%;
+
+}
+
+.landing {
+  position: relative;
+  background: url('./img/showcase.jpg') no-repeat ;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-dark {
+  background-color: rgb(44, 44, 44) !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #ec572c !important;
+}
+
+
+.btn-info {
+  background-color: #ec572c ;
+  border-color: #ec572c;
+}
+
+.btn-info:hover {
+  background-color: #fff ;
+  border-color: #ec572c;
+  color: #ec572c;
+}
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
+.text-info {
+  color: #ec572c !important; 
+
+}
+.btn-danger {
+   color: #fff;
+   background-color: #ec572c;
+}
+.bg-info {
+  background-color: #ec572c !important;
+}
+#me {
+  pointer-events: none;
+  cursor: default;
+ color: #a3a3a3 !important;
+}
+
+.nav-fix {
+  position: fixed ;
+ 
+  z-index: 1000;
+
+}
