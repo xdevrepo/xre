@@ -22,7 +22,7 @@ import { connect } from 'react-redux';
             </h1>
             <h1 className="display-3 mb-4">Decentralized P2P Lending
             </h1>
-            <p className="lead"> Lend, Borrow, and build your decentralized crypto credit score with XREP - " The next major milestone in cryptocurency adoption. " </p>
+            <p className="lead"> Lend, Borrow, & build your decentralized crypto credit score with XREP - " The next major milestone in cryptocurency adoption. " </p>
             <hr />
             <Link to="/register" className="btn btn-lg btn-info mr-2">Sign Up</Link>
             <Link to="/login" className="btn btn-lg btn-light">Login</Link>
